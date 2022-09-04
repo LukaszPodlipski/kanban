@@ -28,6 +28,7 @@ export default {
   width: 300px;
   background-color: var(--v-grayscale-darken3);
   position: relative;
+  border: 2px solid var(--v-grayscale-darken4);
 
   .theme-switcher {
     width: 80%;
