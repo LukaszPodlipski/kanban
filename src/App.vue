@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark> appbar </v-app-bar>
     <v-main>
       <router-view />
     </v-main>
@@ -14,3 +13,10 @@ export default {
   data: () => ({}),
 };
 </script>
+
+<style>
+@import url("http://fonts.cdnfonts.com/css/manrope");
+.v-application {
+  font-family: "Manrope", sans-serif !important;
+}
+</style>
