@@ -6,6 +6,7 @@ import "@mdi/font/css/materialdesignicons.css";
 import HamburgerIcon from "@/components/icons/HamburgerIcon.vue";
 import SunIcon from "@/components/icons/SunIcon.vue";
 import MoonIcon from "@/components/icons/MoonIcon.vue";
+import ProjectIcon from "@/components/icons/ProjectIcon.vue";
 
 Vue.use(Vuetify);
 
@@ -62,6 +63,9 @@ export const options = {
       },
       Moon: {
         component: MoonIcon,
+      },
+      Project: {
+        component: ProjectIcon,
       },
     },
   },
