@@ -1,15 +1,11 @@
 <template>
   <div class="board-navigation d-flex flex-column">
     <div class="d-flex pa-8 align-center">
-      <v-img
-        max-height="37"
-        max-width="37"
-        class="mr-8 hamburger"
-        src="@/assets/img/hamburger.svg"
-      ></v-img>
+      <v-icon class="mr-8 hamburger" src="@/assets/img/hamburger.svg"
+        >$Hamburger</v-icon
+      >
       <h1 class="page-title">Kanban</h1>
     </div>
-    <v-icon> $Hamburger </v-icon>
     <div class="theme-switcher d-flex align-center justify-center">
       <v-switch
         v-model="$vuetify.theme.dark"

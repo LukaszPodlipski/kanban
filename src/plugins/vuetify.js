@@ -1,5 +1,9 @@
 import Vue from "vue";
 import Vuetify from "vuetify/lib/framework";
+import "material-design-icons-iconfont/dist/material-design-icons.css";
+import "@mdi/font/css/materialdesignicons.css";
+
+import HamburgerIcon from "@/components/icons/HamburgerIcon.vue";
 
 Vue.use(Vuetify);
 
@@ -44,12 +48,12 @@ export const options = {
         black: "#0A0B0B",
       },
     },
-    icons: {
-      iconfont: "md",
-      values: {
-        Hamburger: {
-          component: HamburgerIcon,
-        },
+  },
+  icons: {
+    iconfont: "mdi",
+    values: {
+      Hamburger: {
+        component: HamburgerIcon,
       },
     },
   },
